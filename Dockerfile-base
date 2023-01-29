@@ -43,7 +43,8 @@ RUN chmod +x /usr/bin/envsubst
 # # docker build \
 #     --build-arg TEXLIVE_MIRROR=http://ctan.crest.fr/tex-archive/systems/texlive/tlnet \
 #     -f Dockerfile-base -t sharelatex/sharelatex-base .
-ARG TEXLIVE_MIRROR=http://mirror.ctan.org/systems/texlive/tlnet
+# ARG TEXLIVE_MIRROR=http://mirror.ctan.org/systems/texlive/tlnet
+ARG TEXLIVE_MIRROR=https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/tlnet
 
 ENV PATH "${PATH}:/usr/local/texlive/2021/bin/x86_64-linux"
 
@@ -61,7 +62,7 @@ RUN mkdir /install-tl-unx \
       -profile /install-tl-unx/texlive.profile \
       -repository ${TEXLIVE_MIRROR} \
     \
-&&  tlmgr install --repository ${TEXLIVE_MIRROR} \
+&&  /usr/local/texlive/2022/bin/x86_64-linux/tlmgr install --repository ${TEXLIVE_MIRROR} \
       latexmk \
       texcount \
     \

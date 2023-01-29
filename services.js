@@ -1,57 +1,57 @@
 module.exports = [
   {
     name: 'web',
-    repo: 'https://github.com/sharelatex/web-sharelatex.git',
+    repo: 'https://github.com/overleaves/web.git',
     version: 'master',
   },
   {
     name: 'real-time',
-    repo: 'https://github.com/sharelatex/real-time-sharelatex.git',
+    repo: 'https://github.com/overleaves/real-time.git',
     version: 'master',
   },
   {
     name: 'document-updater',
-    repo: 'https://github.com/sharelatex/document-updater-sharelatex.git',
+    repo: 'https://github.com/overleaves/document-updater.git',
     version: 'master',
   },
   {
     name: 'clsi',
-    repo: 'https://github.com/sharelatex/clsi-sharelatex.git',
+    repo: 'https://github.com/overleaves/clsi.git',
     version: 'master',
   },
   {
     name: 'filestore',
-    repo: 'https://github.com/sharelatex/filestore-sharelatex.git',
+    repo: 'https://github.com/overleaves/filestore.git',
     version: 'master',
   },
   {
     name: 'track-changes',
-    repo: 'https://github.com/sharelatex/track-changes-sharelatex.git',
+    repo: 'https://github.com/overleaves/track-changes.git',
     version: 'master',
   },
   {
     name: 'docstore',
-    repo: 'https://github.com/sharelatex/docstore-sharelatex.git',
+    repo: 'https://github.com/overleaves/docstore.git',
     version: 'master',
   },
   {
     name: 'chat',
-    repo: 'https://github.com/sharelatex/chat-sharelatex.git',
+    repo: 'https://github.com/overleaves/chat.git',
     version: 'master',
   },
   {
     name: 'spelling',
-    repo: 'https://github.com/sharelatex/spelling-sharelatex.git',
+    repo: 'https://github.com/overleaves/spelling.git',
     version: 'master',
   },
   {
     name: 'contacts',
-    repo: 'https://github.com/sharelatex/contacts-sharelatex.git',
+    repo: 'https://github.com/overleaves/contacts.git',
     version: 'master',
   },
   {
     name: 'notifications',
-    repo: 'https://github.com/sharelatex/notifications-sharelatex.git',
+    repo: 'https://github.com/overleaves/notifications.git',
     version: 'master',
   },
 ]
